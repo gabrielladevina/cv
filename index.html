@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>D's Personal Website</title>
+</head>
+
+<body>
+  <table cellspacing="20">
+    <tr>
+      <td>
+          <img width="300px" height="200px" src="images/devina.jpg" alt="D's pfp">
+      </td>
+      <td>
+        <h1>D</h1>
+        <p> Hello my name is D</p> <!-- to create a paragraph -->
+        <p><em>I am a computer science student at <strong>blablabla university</strong></em></p>
+      </td>
+    </tr>
+  </table>
+  <img width="200px" height="200px" src="https://www.gardendesign.com/pictures/images/675x529Max/site_3/helianthus-yellow-flower-pixabay_11863.jpg" alt="Flower">
+
+  <a href="https://www.google.com"><img width="200px" height="200px" src="https://www.gardendesign.com/pictures/images/675x529Max/site_3/helianthus-yellow-flower-pixabay_11863.jpg" alt="Flower2"></a>
+
+  <hr />
+  <hr size="3" noshade>
+  <h3> D's Hobbies </h3>
+  <ul>
+    <li>Cooking</li>
+    <li>Watching Movies </li>
+  </ul>
+  <a href="hobbies.html">My Other Hobbies</a>
+  <p>
+    You can contact me <a href="ContactMe.html">Here</a>
+  </p>
+  <h1> This is a level 1 heading created using the h1 tag </h1>
+<h1>Heading level 1 </h1>
+<h2>Heading level 2 </h2>
+<h3>Heading level 3 </h3>
+<h4>Heading level 4 </h4>
+<h5>Heading level 5 </h5>
+<h6>Heading level 6</h6>
+
+<!-- self-closing tags -->
+<br>
+
+<!-- another self-closing tags; horizontal rule tag -->
+<hr>
+<!-- in order to modify or customize it, we can add HTML attirubute-->
+<hr size = "3" noshade>
+<!-- so the size ="3" and noshade are called HTML attirubutes -->
+
+<h1> D </h1>
+<p> Hello my name is A</p> <!-- to create a paragraph -->
+<p><em>I am a computer science student at <strong>blablabla university</strong></em></p> <!-- <em> is used to emphasize and <strong> gives text strong importance displayed in bold -->
+<!-- we can also use <i> instead of <em> and <b> instead of <strong> but it doesnt give any meaning. therefor, it is better to use <em> and <strong> tags instead -->
+<!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em#%3Ci%3E_vs._%3Cem%3E -->
+<hr>
+<hr size = "3" noshade>
+
+<!-- HTML LISTS -->
+
+<!-- <ul> stands for un-ordered; <ol> stands for ordered list;  <li> stands for list item -->
+
+<!-- BULLETED LIST; UNORDERED LIST; -->
+<!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul-->
+<h3> D's Hobbies </h3>
+<ul>
+  <li>Cooking</li>
+  <li>Watching Movies </li>
+</ul>
+
+<!-- ORDERED  LIST; -->
+<!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol -->
+<ol>
+  <li>Fee</li>
+  <li>Fi</li>
+  <li>Fo</li>
+  <li>Fum</li>
+</ol>
+
+<!-- THIS IS A WRONG EXAMPLE; DO NOT put space in between <li> and the content -->
+<h3> Lists of Schools Attended </h3>
+<ol>
+  <li> ABC <li>
+  <li> DE <li>
+  <li> GH <li>
+  <li> IJK </li>
+</ol>
+
+<hr>
+<hr size = "3" noshade>
+
+<!--HTML Image Elements -->
+<!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img -->
+<!-- the image element is a self-closing tag. it has to be accompanied by HTML attributes which is "source" that would specify the source of the image. it could also have other attributes such as "alt" that would display a text that could discribe what the image is about incase the browser cannot render the image properly. -->
+<!-- here is how it looks like when the browser cannot render the image properly and it shows the alt instead -->
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallpaperaccess.com%2Fflower-aesthetic-tumblr&psig=AOvVaw0qsOQTEUmO2IW5aG9IGe56&ust=1627201122570000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCND4ttqi-_ECFQAAAAAdAAAAABAD" alt="flower image">
+<!-- to get the piture from a local storage, the picture has to be saved in the directory where you save the webpage. if its in the same hierarchy as your index.html, then simple change the src to src="blabla.png"; BUT if it is inside of a folder, src="nameofthefolder/blabla.png" -->
+<hr>
+<hr size="3" noshade>
+<!-- HTML Links and Anchor Tags -->
+<!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a -->
+<p><em>I am a computer science student at <strong><a href="https://www.coventry.ac.uk/">blablabla university</strong></em></p>
+ <!-- to hyperlink it to another page that we have -->
+  <a href="hobbies.html">My Hobbies</a>
+ <hr>
+<hr size="3" noshade>
+<!-- HTML Tables -->
+<!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table -->
+<!-- DO NOT MAKE BORDER WITH HTML, if possible -->
+<table>
+  <tr>
+    <td>Wes</td>
+    <td>22</td>
+  </tr>
+  <tr>
+    <td>Gabriella</td>
+    <td>21</td>
+  </tr>
+</table>
+
+<!-- if you wanna have a head -->
+<table>
+  <thead>
+    <th>Name</th>
+    <th>Age</th>
+  </thead>
+  <tbody>
+     <tr>
+    <td>Wes</td>
+    <td>22</td>
+  </tr>
+  <tr>
+    <td>Gabriella</td>
+    <td>21</td>
+  </tr>
+  </tbody>
+  <tfoot>
+  </tfoot>
+
+  <!--if you wanna have a border -->
+  <table border="1">
+  <thead>
+    <th>Name</th>
+    <th>Age</th>
+  </thead>
+  <tbody>
+     <tr>
+    <td>Wes</td>
+    <td>22</td>
+  </tr>
+  <tr>
+    <td>Gabriella</td>
+    <td>21</td>
+  </tr>
+  </tbody>
+  <tfoot>
+  </tfoot>
+</table>
+<h3>Skills</h3>
+<table cellspacing="10">
+  <tr>
+    <td>
+      <table>
+        <tr>
+          <td>Web Development</td>
+          <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Javascipt</td>
+          <td>⭐⭐</td>
+        </tr>
+        <tr>
+          <td>HTML</td>
+          <td>⭐⭐⭐⭐</td>
+        </tr>
+      </table>
+    </td>
+    <td>
+      <table>
+        <tr>
+          <td>Mobile App Development</td>
+          <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>React</td>
+          <td>⭐⭐</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>⭐⭐</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
